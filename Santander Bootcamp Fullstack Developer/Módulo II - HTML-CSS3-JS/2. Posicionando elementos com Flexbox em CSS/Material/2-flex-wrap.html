@@ -1,55 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Wrap</title>
+    <title>Fundamentos - flex wrap</title>
 
     <style>
-        .flex-container {
+        .flex-container{
             display: flex;
             flex-direction: column;
             height: 150px;
             border: 2px solid black;
             max-width: 310px;
         }
-        
-        .item {
+
+        .item{
             font-size: 24px;
             height: 50%;
             text-align: center;
             min-width: 100px;
             line-height: 50px;
         }
-        
-        .nowrap {
+
+        .nowrap{
             flex-wrap: nowrap;
         }
-        
-        .wrap {
+
+        .wrap{
             flex-wrap: wrap;
         }
-        
-        .wrap-reverse {
+
+        .wrap-reverse{
             flex-wrap: wrap-reverse;
         }
-        
-        .blue {
+
+        .blue{
             background-color: blue;
         }
-        
-        .green {
+
+        .green{
             background-color: lightgreen;
         }
-        
-        .orange {
+
+        .orange{
             background-color: orangered;
         }
     </style>
 </head>
-
 <body>
     <h1>no wrap</h1>
 
@@ -77,6 +74,7 @@
         <div class="item orange">3</div>
         <div class="item orange">4</div>
     </div>
-</body>
 
+
+</body>
 </html>
